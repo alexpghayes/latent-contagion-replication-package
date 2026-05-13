@@ -49,7 +49,7 @@ list(
   tar_target(chunk_size, 10),
   tar_target(num_chunks, 10),
 
-  tar_target(n, c(100, 163, 264, 430, 698, 1135, 1845)), #, 3000)),
+  tar_target(n, c(100, 163, 264, 430, 698, 1135, 1845)),
   tar_target(rank, c(5)),
   tar_target(expected_degree, c("n^1/2", "n^1/4", "n^3/4")),
 
